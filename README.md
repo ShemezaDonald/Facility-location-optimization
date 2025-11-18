@@ -68,4 +68,25 @@ The analysis follows this pipeline:
 
 ## 📁 6. Repository Structure
 
+Facility-location-optimization/
+│
+├── 📓 Facility Location Optimization.ipynb # Main notebook
+├── 📄 Facility Location Optimization Presentation.pdf # Summary slides
+└── 📄 Facility Location Optimization Report.pdf # Detailed report
+
+
+---
+
+## ▶️ 7. How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/ShemezaDonald/Facility-location-optimization.git
+cd Facility-location-optimization
+
+# 2. Install dependencies (example)
+pip install pandas numpy pulp matplotlib folium googlemaps
+
+# 3. Launch Jupyter Notebook
+jupyter notebook "Facility Location Optimization.ipynb"
 
